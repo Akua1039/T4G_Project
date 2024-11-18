@@ -1,0 +1,83 @@
+.nav_background {
+    display: flex;
+    width: 100%;
+    background-image: url(../images/Project2.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    height: 350px;
+    color: darkred;
+}
+
+.nav_background p {
+    margin-right: 10px; /* Add space between logo and navigation */
+    
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    gap: 45px; 
+    background-color: wheat;
+    padding-right: 40px;
+    height: 35px;
+    border-radius: 5px;
+    width: 50%; /* Adjust to fill remaining space */
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium; 
+}
+
+    .image_resize{
+        width: 250px;
+        height: 250px;
+        margin: auto;
+        border-radius: 3%;
+        align-items: center;
+        padding-left: 0%;
+        
+}
+.image_resize p{
+     border: 3px solid wheat;
+     font-family: cursive;
+     border-radius: 10%;
+     background-color: lavenderblush;
+    
+}
+
+    .image_resize img{
+    width: 100%;
+    height: 100%;   
+}
+
+    .images1{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 15%;
+        margin-top: 5%;
+               
+        /* border-radius: 3%; */
+        /* justify-content: space-between; */
+}
+
+    .nav_background img{
+        justify-content: right;
+        width: 100px;
+        height: 100px;
+        border-radius: 60px;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, 
+    sans-serif;
+    text-align: left;
+   margin: 0% 1% 1%;
+   margin-top: 2%;
+   background-color: wheat;
+   padding: 3% 3% 3%;
+   text-align: justify;
+   border-radius: 2%;
+   color: darkred;
+}
+
+    
