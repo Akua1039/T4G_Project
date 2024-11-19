@@ -12,8 +12,13 @@
     margin-right: 10px; /* Add space between logo and navigation */
     
 }
+nav a:hover {
+    background-color: white;
+   color: darkred;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-nav {
+nav{
     display: flex;
     justify-content: right;
     gap: 45px; 
@@ -40,9 +45,12 @@ nav {
 }
 .image_resize p{
      border: 3px solid wheat;
-     font-family: cursive;
+     font-family: 'Trebuchet MS', 
+     'Lucida Sans Unicode', 'Lucida Grande', 
+     'Lucida Sans', Arial, sans-serif;
      border-radius: 10%;
-     background-color: lavenderblush;
+     text-align: left;
+     /* background-color: lavenderblush; */
     
 }
 
@@ -55,11 +63,7 @@ nav {
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 15%;
-        margin-top: 5%;
-               
-        /* border-radius: 3%; */
-        /* justify-content: space-between; */
-}
+        margin-top: 5%;}
 
     .nav_background img{
         justify-content: right;
@@ -68,22 +72,103 @@ nav {
         border-radius: 60px;
 }
 p{
-    font-family: Verdana, Geneva, Tahoma, 
-    sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, 
+    sans-serif; */
     text-align: left;
     margin: 0% 1% 1%;
     margin-top: 2%;
     background-color: wheat;
     padding: 3% 3% 3%;
     text-align: justify;
-    border-radius: 2%;
+    border-radius: 5%;
+    color: darkred;
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+.cont_below img{
+    display: flex;
+    justify-content: left;
+        width: 100px;
+        height: 100px;
+        border-radius: 60px;
+        margin: 0%;
+}
+.form{
+width: max-content;
+}
+h3{
+   text-indent: 15%;
+   color: darkred;
+   /* margin-bottom: 10%; */
+   margin-top: 20px;
+}
+.cont_below { display: grid; 
+grid-template-columns: 25% 25% 25%; 
+gap: 15px; 
+justify-items: center;
+align-content: center;
+width: 100%; 
+padding: 5px;
+margin-left: 0px; 
+display: flex;
+flex-wrap: wrap;
+gap: 10%;
+padding-left: 50px;
+    /* background-color: wheat; */
+border-radius: 5%;
+} 
+form { background-color:wheat; 
+    padding: 50px; 
+    border-radius: 20px; 
+} 
+.form { margin-bottom: 5px; 
+    margin-top: 0%;
+} 
+input[type="Name"], 
+textarea { width: calc(100% - 20px); 
+padding: 5px; margin: 0 5px; 
+border: 1px solid #ccc; 
+border-radius: 4px; box-sizing: 
+border-box; 
+} 
+button {background-color: #3498db; 
+    color: white; padding: 10px 15px; 
+    border: none; border-radius: 4px; 
+    cursor: pointer; 
+    display: block; width: calc(100% - 20px); 
+    margin: 0 10px; 
+} 
+button:hover { background-color: palevioletred; 
+} 
+.nav { list-style: none; padding: 0; 
+} 
+.nav li { margin-bottom: 10px; 
+} 
+.nav a { text-decoration: none; 
+color: palevioletred; font-weight: bold; 
+} 
+.nav a:hover { color: palevioletred 
+} 
+.social-links { display: flex; 
+gap: 10px; 
+}
+.con_nav{
+    padding-top: 0;
+    margin: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+    color: darkred;
+    line-height: 60px;
+}
+h2{
     color: darkred;
 }
-.cont_below{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    align-items: center;
-    gap: 30%;
-    padding-left: 50px;
+.aboutus p{
+background: none;
+height: 5px;
+margin-top: 0%;
+padding-left: 0%;
 }
