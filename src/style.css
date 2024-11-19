@@ -71,13 +71,19 @@ p{
     font-family: Verdana, Geneva, Tahoma, 
     sans-serif;
     text-align: left;
-   margin: 0% 1% 1%;
-   margin-top: 2%;
-   background-color: wheat;
-   padding: 3% 3% 3%;
-   text-align: justify;
-   border-radius: 2%;
-   color: darkred;
+    margin: 0% 1% 1%;
+    margin-top: 2%;
+    background-color: wheat;
+    padding: 3% 3% 3%;
+    text-align: justify;
+    border-radius: 2%;
+    color: darkred;
 }
-
-    
+.cont_below{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+    gap: 30%;
+    padding-left: 50px;
+}
