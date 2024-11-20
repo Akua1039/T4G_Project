@@ -8,6 +8,16 @@
     color: darkred;
 }
 
+.products_background {
+    display: flex;
+    /* width: 100%; */
+    /* background-image: url(../images/Project2.jpg); */
+    /* background-repeat: repeat;
+    background-size: contain;
+    height: 350px;
+    color: darkred; */
+}
+
 .nav_background p {
     margin-right: 10px; /* Add space between logo and navigation */
     
@@ -176,9 +186,9 @@ height: 5px;
 margin-top: 0%;
 padding-left: 0%;
 }
-.products_background{
+/* .products_background{
     background-image: none;
-}
+} */
 .downlogo{
     padding-top: 80px;
     /* align-content: last baseline; */
