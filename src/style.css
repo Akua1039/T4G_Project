@@ -18,6 +18,14 @@
     color: darkred; */
 }
 
+.contact_background{
+    display: flex;
+    background-image: url(../images/contact\ 3.jpg);
+    background-position: 55%;
+    background-size: contain;
+    height: 450px;
+    background-repeat: no-repeat; background-color: wheat;
+}
 .nav_background p {
     margin-right: 10px; /* Add space between logo and navigation */
     
@@ -54,7 +62,9 @@ nav{
         padding-left: 0%;}
 .image_resize p{
      border: 3px solid lightcoral;
-     font-family: 'Trebuchet MS','Lucida Sans Unicode','Lucida Grande','Lucida Sans',Arial, sans-serif;
+     font-family: 'Trebuchet MS',
+     'Lucida Sans Unicode','Lucida Grande',
+     'Lucida Sans',Arial, sans-serif;
      border-radius: 10%;
      text-align: left;}
 
@@ -75,6 +85,39 @@ nav{
         height: 100px;
         border-radius: 60px;
 }
+.products_background img{
+    justify-content: right;
+        width: 100px;
+        height: 100px;
+        border-radius: 60px;
+}
+
+.contact_background img{
+    justify-content: right;
+        width: 100px;
+        height: 100px;
+        border-radius: 60px;
+}
+
+.contactus{
+    margin-top: 100px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    /* margin-right: 50px; */
+    /* padding-left: 0%; */
+}
+
+.contactus p{
+    margin-top: 60px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    text-indent: 0%;
+    /* margin-right: 50px; */
+    /* padding-left: 0%; */
+}
+
 p{
     /* font-family: Verdana, Geneva, Tahoma, 
     sans-serif; */
@@ -109,7 +152,7 @@ h3{
    margin-top: 20px;
 }
 .cont_below{ display: grid; 
-grid-template-columns: 15% 15% 15%; 
+grid-template-columns: 12% 12% 12%; 
 gap: 10px; 
 justify-content: space-evenly;
 align-content: center;
@@ -200,7 +243,7 @@ padding-left: 0%;
     gap: 50px;
 }
 .fa-brands{
-    font-size: 30px;
+    font-size: 25px;
 }
 body{
     background-color: whitesmoke;
