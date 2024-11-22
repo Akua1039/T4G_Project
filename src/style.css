@@ -25,8 +25,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px; */
-    background-color: lightcoral;
-    height: 630px;
+    /* background-color: lightcoral;
+    height: 630px; */
 }
 
 .contact_background{
@@ -187,18 +187,18 @@ margin: auto;
 margin-left: 20px; 
 display: flex;
 flex-wrap: wrap;
-/* gap: 3%; */
+gap: 3%;
 padding-left: 15px;
 background-color:lightcoral;
   border-radius: 10%;
   margin-top: 30px;
 } 
-form { background-color:rgb(201, 197, 197); 
+.form_main{ background-color:rgb(201, 197, 197); 
     padding: 20px; 
     border-radius: 30px; 
     padding-left: 10px;
 } 
-.form { margin-bottom: 2px; 
+.form_contact { margin-bottom: 2px; 
     margin-top: 0%;
     margin-left: 10px;
 } 
@@ -209,14 +209,14 @@ border: 1px solid #ccc;
 border-radius: 4px; 
 box-sizing: border-box;} 
 
-button {background-color: lightcoral;
+.main {background-color: lightcoral;
     color: darkred; padding: 10px 15px; 
     border: none; border-radius: 4px; 
     cursor: pointer; 
     display: block; width: calc(100% - 20px); 
     margin: 0 10px; 
 } 
-button:hover { background-color: gray; 
+.main:hover { background-color: gray; 
 } 
 .nav { list-style: none; padding: 0; 
 } 
@@ -286,6 +286,13 @@ h1{
 footer{
     color: darkred;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    bottom: 0;
+}
+.footer{
+    color: darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    bottom: 0;
 }
 .products_images img{
     width: 120px;
@@ -361,5 +368,40 @@ footer{
 
 .contact_persons:hover{
     color: gray;
+}
+.login_form {background-color: lightcoral;
+        color: darkred; 
+        padding: 10px 10px; 
+        border: solid wheat 4px; 
+        border-radius: 20px; 
+        cursor: pointer; 
+        display: block; width: calc(30% - 90px); 
+        margin: 50px 100px 90px;
+        justify-self: center;
+        width: 300px;
+       
+                /* margin-left: 20px; */
+    } 
+.login_form1{
+    padding: 10px;
+    
+}
+
+
+.input_login{
+    /* width: 270px; */
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+    /* .login_form:hover { background-color: gray; 
+    } */
+.login_bac{
+    position: relative;
+    background-image: url(../images/image\ 23.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
 
