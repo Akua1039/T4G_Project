@@ -289,7 +289,7 @@ footer{
     bottom: 0;
 }
 .footer{
-    color: darkred;
+    color: wheat;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
     bottom: 0;
@@ -398,7 +398,7 @@ footer{
     } */
 .login_bac{
     position: relative;
-    background-image: url(../images/image\ 23.jpg);
+    background-image: url(../images/login\ page\ background\ 2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
