@@ -436,10 +436,21 @@ footer{
 
 .signup_background, .contact_background {
     /* same styling as login_background if desired */
+    display: flex;
 }
 
 .signup_form, .contact_form {
     /* same styling as login_form if desired */
+    background-color: lightcoral;
+    color: darkred; 
+    padding: 10px 10px; 
+    border: solid wheat 4px; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    display: block; width: calc(40% - 90px); 
+    margin: 50px 100px 90px;
+    justify-self: center;
+    width: 350px;
 }
 
 .input_signup, .input_contact {
