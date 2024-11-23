@@ -11,22 +11,12 @@
 
 .products_background {
     display: flex;
-    /* width: 100%; */
-    /* background-image: url(../images/Project2.jpg); */
-    /* background-repeat: repeat;
-    background-size: contain;
-    height: 350px;
-    color: darkred; */
+    
 }
 
 .login_background {
     display: flex;
-    /* background-image: url(../images/image\ 23.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 700px; */
-    /* background-color: lightcoral;
-    height: 630px; */
+    
 }
 
 .contact_background{
@@ -36,6 +26,45 @@
     background-size: contain;
     height: 450px;
     background-repeat: no-repeat; background-color: wheat;
+}
+.contact_background2{
+    display: flex;
+}
+.contact_background2 img{
+    display: flex;
+    justify-content: right;
+        width: 100px;
+        height: 100px;
+        border-radius: 60px;
+}
+
+.contact_background1{
+    display: flex;
+    background-image: url(../images/contact\ 3.jpg);
+    background-position: 55%;
+    background-size: contain;
+    height: 450px;
+    background-repeat: no-repeat; background-color: wheat;
+}
+
+.contact_background1 img{
+    display: flex;
+    justify-content: right;
+        width: 100px;
+        height: 100px;
+        border-radius: 60px;
+}
+
+.signup_background1{
+    display: flex;
+}
+
+.signup_background1 img{
+    display: flex;
+    justify-content: right;
+        width: 100px;
+        height: 100px;
+        border-radius: 60px;
 }
 .nav_background p {
     margin-right: 10px; /* Add space between logo and navigation */
@@ -67,21 +96,22 @@ nav{
 }
 .contactnav{
     display: flex;
+    flex-wrap: wrap;
     justify-content: right;
-    gap: 10%; 
+    /* gap: 10%;  */
     background-color:rgb(229, 226, 226);
-    padding-right: 50px;
-    height: 35px;
+    padding-right: 10px;
+    /* height: 35px; */
     border-radius: 5px;
-    width: 90%; /* Adjust to fill remaining space */
+    width: 100%; /* Adjust to fill remaining space */
     margin-left: 2%;
     margin-right: 5%;
     font-family: 'Lucida Sans', 
     'Lucida Sans Regular', 'Lucida Grande', 
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium; 
-    margin-top: 5px;
-    align-content: center;
+    /* margin-top: 2%; */
+    align-content: right;
 
 }
 
@@ -146,6 +176,12 @@ nav{
         padding-left: 5px;
 }
 
+signup_background img{
+    justify-content: right;
+        width: 100px;
+        height: 100px;
+        border-radius: 60px;
+}
 .contactus{
     margin-top: 100px;
     color: darkred;
@@ -394,7 +430,7 @@ footer{
 .contact_persons:hover{
     color: gray;
 }
-.login_form {background-color: lightcoral;
+.login_form {background-color: cornsilk;
         color: darkred; 
         padding: 10px 10px; 
         border: solid wheat 4px; 
@@ -430,33 +466,42 @@ footer{
     height: 100vh;
 }
 /* Add this to your existing styles.css */
-.signup_bac, .contact_bac {
-    background-color: #f0f0f0;
+.signup_bac, .contact_bac1 {
+    background-image: url(../images/login\ page\ background\ 2.jpg);
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 .signup_background, .contact_background {
     /* same styling as login_background if desired */
     display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    /* background-image: url(../images/contact\ 3.jpg); */
+    background-position: 55%;
+    background-size: contain;
+    height: 450px;
+    background-repeat: no-repeat; background-color: wheat;
 }
 
+
 .signup_form, .contact_form {
-    /* same styling as login_form if desired */
-    background-color: lightcoral;
+    background-color: cornsilk;
     color: darkred; 
     padding: 10px 10px; 
     border: solid wheat 4px; 
     border-radius: 20px; 
     cursor: pointer; 
     display: block; width: calc(40% - 90px); 
-    margin: 50px 100px 90px;
+    margin: 10px 100px 90px;
     justify-self: center;
     width: 350px;
 }
 
 .input_signup, .input_contact {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
+    width: 90%;
+    padding: 5px;
+    margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -464,4 +509,9 @@ footer{
 .signup_form1, .contact_form1 {
     margin-bottom: 15px;
 }
-
+.sign-up{
+    text-indent: 10px;
+}
+.form_footer1{
+    color: wheat;
+}
