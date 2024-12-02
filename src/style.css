@@ -8,7 +8,12 @@
     color: darkred;
     padding-left: 20px;
 }
-
+.live{
+    background-color: lightcoral;
+    border-radius: 5px;
+    padding: 0.6em;
+    padding-top: 0.1em;
+}
 .products_background {
     display: flex;
     
@@ -71,7 +76,7 @@
     
 }
 nav a:hover {
-    background-color: lightcoral;
+    background-color: wheat;
    color: darkred;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -80,7 +85,7 @@ nav{
     display: flex;
     justify-content: right;
     gap: 10%; 
-    background-color:rgb(229, 226, 226);
+    background-color:rgb(232, 230, 229);
     padding-right: 50px;
     height: 35px;
     border-radius: 5px;
@@ -437,7 +442,7 @@ h1{
         border-radius: 20px; 
         cursor: pointer; 
         display: block; width: calc(30% - 90px); 
-        margin: 50px 100px 90px;
+        margin: 0 auto;
         justify-self: center;
         width: 300px;
        
@@ -493,7 +498,7 @@ h1{
     border-radius: 20px; 
     cursor: pointer; 
     display: block; width: calc(40% - 90px); 
-    margin: 10px 100px 90px;
+    margin: 0 auto;
     justify-self: center;
     width: 350px;
 }
