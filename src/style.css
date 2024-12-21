@@ -272,11 +272,11 @@ border-radius: 4px;
 box-sizing: border-box;} 
 
 .main {background-color: lightcoral;
-    color: darkred; padding: 10px 15px; 
+    color: darkred; padding: 5px 10px; 
     border: none; border-radius: 4px; 
     cursor: pointer; 
     display: block; width: calc(100% - 20px); 
-    margin: 0 10px; 
+    margin: auto;
 } 
 .main:hover { background-color: gray; 
 } 
@@ -335,7 +335,7 @@ padding-left: 0%;
 }
 body{
     background-color: whitesmoke;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     width: 100%;
 }
@@ -361,12 +361,44 @@ h1{
     height: 100px;
     padding-left: 10px;
     margin-top: 100px;
+    /* width: 200px; height: auto; */
 }
 .product_images img{
     width: 100px;
-    height: 200px;
+    height: auto;
     padding-left: 10px;
     margin-top: 5px;
+    /* width: 100px; height: auto; */
+}
+
+.product_images, .products_images, .prod_images { 
+    /* position: relative;  */
+    display: inline-block; 
+    text-align: center; 
+    /* margin: 10px; */
+    margin-top: 10px;
+}
+
+.product_images p, .products_images p, .prod_images p { 
+    position: relative; 
+    bottom: 5px; 
+    /* left: 50%; transform: translateX(-50%);  */
+    background-color: wheat; 
+    /* color: wheat; padding: 10px 10px;  */
+    display: none; /* Hide the "Add to Cart" text initially */ 
+    cursor: pointer; 
+    
+} 
+.product_images:hover p, .products_images:hover p, .prod_images:hover p { 
+    display: block; /* Show the "Add to Cart" text on hover */ 
+}
+
+.description{
+    background-color: none;
+   font-family: cursive;
+   font-size: small;
+   color:chocolate;
+   font-weight: lighter;
 }
 .container2{
     display: flex;
@@ -408,10 +440,11 @@ h1{
    cursor: pointer;
 }
 .prod_images img{
-    width: 140px;
-    height: 120px;
+    /* width: 140px;
+    height: 120px; */
     padding-left: 10px;
     margin-top: 5px;
+    width: 200px; height: auto;
 }
 .contact_persons{
     display: flex;

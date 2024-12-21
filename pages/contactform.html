@@ -19,29 +19,30 @@
         </nav>
     </div>
     <div class="contact_form">
-        <form action="" class="contact_container">
+        <form action="" class="contact_container" id="contactForm">
             <h1>Contact Us</h1>
             <p>We'd love to hear from you! Please fill out the form below.</p>
             <div class="contact_form1">
-                <input type="text" name="Name" placeholder="Your Name" required class="input_contact">
+                <input type="text" name="Name" placeholder="Your Name" required class="input_contact" id="yourName">
             </div>
             <div class="contact_form1">
-                <input type="email" name="Email" placeholder="Your Email" required class="input_contact">
+                <input type="email" name="Email" placeholder="Your Email" required class="input_contact" id="yourEmail">
             </div>
             <div class="contact_form1">
-                <textarea name="Message" cols="20" rows="10" placeholder="Your Message" required class=""></textarea>
+                <textarea name="Message" cols="20" rows="10" placeholder="Your Message" required class="" id="yourMessage"></textarea>
             </div>
             <div class="contact_form1">
-                <button type="submit">Send Message</button>
+                <button type="button" id="sendMessageBtn" class="main">Send Message</button>
             </div>
         </form>
     </div>
     
     <footer class="footer"> 
         <div class="footer-content"> 
-            <div class="footer-left">Privacy Policy</a> 
-            </div> <div class="footer-right"> ©2024 Peniel Glorious Business Services </div> 
+            <div class="footer-left">Privacy Policy</div> 
+            <div class="footer-right">©2024 Peniel Glorious Business Services</div> 
         </div> 
-        </footer>
+    </footer>
+    <script src="../src/index.js"></script>
 </body>
 </html>

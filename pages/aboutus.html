@@ -8,15 +8,15 @@
     <title>About Us</title>
 </head>
 <body>
-<div class="nav_background">
-     <div><img src="../images/Peniel_logo.png" alt="Logo"></div>
+    <div class="nav_background" id="slideshow">
+    <div><img src="../images/Peniel_logo.png" alt="Logo"></div>
     <nav>
         <a href="../index.html">Home</a>
         <a href="./aboutus.html" class="live">About</a>
         <a href="./products.html">Products</a>
-        <a href="./contactus.html"> Contact us</a>
+        <a href="./contactus.html">Contact Us</a>
         <a href="./login.html">Login</a>
-</nav>
+    </nav>
 </div>
 
 <div class="aboutus">
@@ -25,12 +25,12 @@
         for quality organic hair products that cater to all hair types. 
         We proudly offer an extensive range of top-tier products from 
         renowned brands like Shea Moisture, The Mane Choice, Mielle Organics, 
-        As I Am, Cantu, and many more. <br>
-        <br> <br></p>
+        As I Am, Cantu, and many more. <br><br>
+    </p>
     <p><b>Our Vision</b> <br>
     To become your preferred store 
     for a wide range of products, 
-    ethically sourced from manufactures and trusted
+    ethically sourced from manufacturers and trusted
     distributors from Ghana and around the world.
     We want our customers to associate beauty with Peniel Glorious. <br>
     </p>
@@ -42,8 +42,8 @@
     Our mission is to provide you with the finest organic hair care 
     solutions, ensuring your hair remains healthy, vibrant, and 
     beautifully managed. 
-    We aim to makeself-care accessibleto 
-     our valued customers through affordable prices.   
+    We aim to make self-care accessible to 
+    our valued customers through affordable prices.   
     </p>
 </div>
 
@@ -57,66 +57,70 @@
 <div class="cont_below">
     <div>
         <h3><b>Contact Us</b></h3>
-        <form action="" class="form_main">
-        <div class="form_contact">
-        <input type="Name" name="First name" id="" 
-        placeholder="First name" required>
-        </div>
-    
-        <div class="form_contact">
-        <input type="Name" name="Last name" id="" 
-        placeholder="Last name" required>
-        </div>
-    
-        <div class="form_contact">
-        <textarea name="" id="" 
-        cols="30" rows="10" placeholder="Please Type Here" 
-        required></textarea> 
-        </div>
-        <button class="main">Submit</button>
-    </form>
+        <form action="" class="form_main" id="contactForm">
+            <div class="form_contact">
+                <input type="text" name="First name" id="firstName" 
+                placeholder="First name" required>
+            </div>
+
+            <div class="form_contact">
+                <input type="text" name="Last name" id="lastName" 
+                placeholder="Last name" required>
+            </div>
+
+            <div class="form_contact">
+                <textarea name="Message" id="message" 
+                cols="30" rows="10" placeholder="Please Type Here" 
+                required></textarea> 
+            </div>
+            <button type="button" class="main" id="submitBtn">Submit</button>
+        </form>
     </div>
     
     <div class="con_nav">
-            <ul>
+        <ul>
             <li><a href="../index.html">Home</a></li>
             <li><a href="../pages/aboutus.html">About</a></li>
             <li><a href="../pages/products.html">Products</a></li>
             <li><a href="../pages/contactus.html">Contact Us</a></li>
             <li><a href="../pages/login.html">Login</a></li>
-            </ul>
+        </ul>
     </div>
     <div class="downlogo"><img src="../images/Peniel.png" alt="Logo"></div>
-    
-    </div>
-    <div class="links">
-        <div>
+</div>
+<div class="links">
+    <div>
         <a href="https://www.facebook.com">
             <i class="fa-brands fa-facebook fa-fade" 
-            style="color: #1f8ce0;"></i></a>
-        </div>
-        <div>
+            style="color: #1f8ce0;"></i>
+        </a>
+    </div>
+    <div>
         <a href="https://www.whatsapp.com">
             <i class="fa-brands fa-whatsapp fa-fade" 
-            style="color: #279112;"></i></a>
-        </div>
-        <div>
+            style="color: #279112;"></i>
+        </a>
+    </div>
+    <div>
         <a href="https://www.instagram.com">
             <i class="fa-brands fa-instagram fa-fade" 
-            style="color: #e51f5b;"></i></a>
-        </div>
-        <div>
+            style="color: #e51f5b;"></i>
+        </a>
+    </div>
+    <div>
         <a href="https://www.linkedin.com">
             <i class="fa-brands fa-linkedin fa-fade" 
-            style="color: #127aca;"></i></a>
-        </div>
+            style="color: #127aca;"></i>
+        </a>
     </div>
-    <hr>
-    <footer class="footer1"> 
-        <div class="footer-content"> 
-            <div class="footer-left">Privacy Policy</a> 
-            </div> <div class="footer-right"> ©2024 Peniel Glorious Business Services </div> 
-        </div> 
-        </footer>
+</div>
+<hr>
+<footer class="footer1"> 
+    <div class="footer-content"> 
+        <div class="footer-left">Privacy Policy</div> 
+        <div class="footer-right">©2024 Peniel Glorious Business Services</div> 
+    </div> 
+</footer>
+<script src="../src/index.js"></script>
 </body>
 </html>
