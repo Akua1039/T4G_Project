@@ -398,7 +398,7 @@ h1{
    font-family: cursive;
    font-size: small;
    color:chocolate;
-   font-weight: lighter;
+   font-weight:normal;
 }
 .container2{
     display: flex;
