@@ -2,11 +2,12 @@
     display: flex;
     width: 100%;
     background-image: url(../images/Project2.jpg);
-    background-repeat: repeat;
+     background-repeat: repeat;
     background-size: contain;
     height: 350px;
     color: darkred;
     padding-left: 20px;
+
 }
 .live{
     background-color: lightcoral;
@@ -382,9 +383,7 @@ h1{
 .product_images p, .products_images p, .prod_images p { 
     position: relative; 
     bottom: 5px; 
-    /* left: 50%; transform: translateX(-50%);  */
     background-color: wheat; 
-    /* color: wheat; padding: 10px 10px;  */
     display: none; /* Hide the "Add to Cart" text initially */ 
     cursor: pointer; 
     
@@ -601,3 +600,19 @@ h1{
         margin-top: 10px;
     }
 }
+/* Slideshow container */
+#slideshow {
+    position: relative;
+    height: 70vh;
+    background-size: contain;
+    background-position: center;
+    transition: background-image 2.5s ease-in-out;
+}
+
+
+/* @keyframes fade {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+} */
+
