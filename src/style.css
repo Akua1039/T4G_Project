@@ -615,4 +615,23 @@ h1{
     50% { opacity: 1; }
     100% { opacity: 0; }
 } */
+@media (max-width: 600px) {
+    .nav_background {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    .images1 {
+        flex-direction: column;
+    }
+}
+#slideshow {
+    transition: background-image 1s ease-in-out;
+}
+
 
