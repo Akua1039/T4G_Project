@@ -1,17 +1,31 @@
 .nav_background {
     display: flex;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    /* background-image: url(../images/Project2.jpg); */
+     /* background-repeat: no-repeat;
+    background-size: contain; */
+    height: 300px;
+    color: darkred;
+    /* padding-left: 20px; */
+    /* Fixed Navigation Bar */ 
+    position: fixed; top: 0; width: 100%; 
+    z-index: 1000;
+
+}
+.nav_background1 {
+    display: flex;
+    /* flex-wrap: wrap; */
     width: 100%;
     background-image: url(../images/Project2.jpg);
-     background-repeat: repeat;
+    background-repeat: repeat;
     background-size: contain;
-    height: 350px;
+    height: 300px;
     color: darkred;
-    padding-left: 20px;
-
 }
 .live{
     background-color: lightcoral;
-    border-radius: 5px;
+    border-radius: 2px;
     padding: 0.6em;
     padding-top: 0.1em;
 }
@@ -73,7 +87,7 @@
         border-radius: 60px;
 }
 .nav_background p {
-    margin-right: 10px; /* Add space between logo and navigation */
+    margin-right: 20px; /* Add space between logo and navigation */
     
 }
 nav a:hover {
@@ -85,20 +99,21 @@ nav a:hover {
 nav{
     display: flex;
     justify-content: right;
-    gap: 10%; 
+    gap: 8%; 
     background-color:rgb(232, 230, 229);
-    padding-right: 50px;
+    /* padding-right: 50px; */
     height: 35px;
     border-radius: 5px;
-    width: 90%; /* Adjust to fill remaining space */
-    margin-left: 2%;
-    margin-right: 5%;
+    width: 80%; /* Adjust to fill remaining space */
+    /* margin-left: 2%;
+    margin-right: 5%; */
     font-family: 'Lucida Sans', 
     'Lucida Sans Regular', 'Lucida Grande', 
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium; 
-    margin-top: 5px;
+    /* margin-top: 10px; */
     align-content: center;
+    margin: 0 auto;
 }
 .contactnav{
     display: flex;
@@ -211,10 +226,10 @@ p{
     /* font-family: Verdana, Geneva, Tahoma, 
     sans-serif; */
     text-align: left;
-    margin: 0% 1% 1%;
-    margin-top: 1%;
+    /* margin: 0% 1% 1%;
+    margin-top: 1%; */
     /* background-color: rgb(238, 111, 160); */
-    padding: 3% 3% 3%;
+    padding: 2%;
     text-align: justify;
     border-radius: 5%;
     color: darkred;
@@ -222,6 +237,16 @@ p{
     'Lucida Sans Unicode', 'Lucida Grande', 
     'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
+    margin-top: 0;
+    width: 95%;
+}
+h3{
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif; 
+    text-align: center;
+    font-size: small;
+    justify-content: center;
 }
 .cont_below img{
     display: flex;
@@ -335,10 +360,15 @@ padding-left: 0%;
     font-size: 20px;
 }
 body{
-    background-color: whitesmoke;
+    background-color: lavenderblush;
     margin: 0 auto;
     padding: 0;
-    width: 100%;
+    width: 95%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* height: 50vh; */
+    margin-top: 10px;
 }
 h1{
     text-align: center;
@@ -377,7 +407,7 @@ h1{
     display: inline-block; 
     text-align: center; 
     /* margin: 10px; */
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .product_images p, .products_images p, .prod_images p { 
@@ -399,13 +429,43 @@ h1{
    color:chocolate;
    font-weight:normal;
 }
+.container{
+    height: 100vh;
+    width: 150vh;
+    /* box-shadow: 3px 3px 16px; */
+    position: relative;
+    overflow: hidden;
+    object-fit:none;
+    transition: opacity 2.5s;
+    margin: 0;
+    padding: 0;
+}
+
+.images{
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; */
+    position: relative; 
+    height: 65vh;
+}
+.images img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    transition: opacity 2.5s
+    
+}
+
+
 .container2{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-between;
     justify-content: space-evenly;
-    margin-top: 40px;
+    margin-top: 0 auto;
 } 
 .container1{
     display: flex;
@@ -413,7 +473,7 @@ h1{
     justify-content: center;
     justify-content: space-between;
     justify-content: space-evenly;
-    margin-top: 40px;
+    margin-top: 0 auto;
     
 }
 .container2 p{
@@ -604,34 +664,10 @@ h1{
 #slideshow {
     position: relative;
     height: 70vh;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     transition: background-image 2.5s ease-in-out;
+    margin-bottom: 0;
 }
-
-
-/* @keyframes fade {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
-} */
-@media (max-width: 600px) {
-    .nav_background {
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-    }
-    nav {
-        flex-direction: column;
-        gap: 10px;
-        width: 100%;
-    }
-    .images1 {
-        flex-direction: column;
-    }
-}
-#slideshow {
-    transition: background-image 1s ease-in-out;
-}
-
+ 
 

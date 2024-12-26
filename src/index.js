@@ -21,20 +21,6 @@ function handleSubmit() {
 // Add event listener to the submit button
 document.getElementById('submitBtn').addEventListener('click', handleSubmit);
 
-// Slideshow functionality for navigation background
-const slides = [
-    'images/Project2.jpg',
-    'images/Mielle Coiling custard.jpg',
-    'images/Cantu for kids.jpg',
-    'images/coiling custard new.jpg',
-    'images/Yogurt manuka.jpg',
-    'images/your_image_6.jpg',
-];
-
-function showNextSlide() {
-    slideshowElement.style.backgroundImage = `url('${slides[currentSlide]}')`;
-    currentSlide = (currentSlide + 1) % slides.length;
-}
 function validateInput(input) {
     const errorElement = document.getElementById(`${input.id}Error`);
     if (input.validity.valueMissing) {
@@ -43,4 +29,19 @@ function validateInput(input) {
         errorElement.style.display = 'none';
     }
 }
+var firstIndex=0;
+function automaticSlide(){
+    setTimeout(automaticSlide, 5000);
+    var pics;
+    const img=document.querySelectorAll('.container .images img');
+    for(pics=0; pics<img.length;pics++){
+        img[pics].style.display="none";
+    }
+    firstIndex++;
+    if(firstIndex > img.length){
+        firstIndex =1;
+    }
+    img[firstIndex -1].style.display="block";
+}
 
+automaticSlide();
