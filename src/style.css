@@ -20,8 +20,9 @@
     background-image: url(../images/Project2.jpg);
     background-repeat: repeat;
     background-size: contain;
-    height: 300px;
+    height: 500px;
     color: darkred;
+    
 }
 .live{
     background-color: lightcoral;
@@ -31,12 +32,11 @@
 }
 .products_background {
     display: flex;
-    
+   
 }
 
 .login_background {
-    display: flex;
-    
+    display: flex; 
 }
 
 .contact_background{
@@ -104,14 +104,11 @@ nav{
     /* padding-right: 50px; */
     height: 35px;
     border-radius: 5px;
-    width: 80%; /* Adjust to fill remaining space */
-    /* margin-left: 2%;
-    margin-right: 5%; */
+    width: 80%; 
     font-family: 'Lucida Sans', 
     'Lucida Sans Regular', 'Lucida Grande', 
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium; 
-    /* margin-top: 10px; */
     align-content: center;
     margin: 0 auto;
 }
@@ -119,19 +116,16 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
-    /* gap: 10%;  */
     background-color:rgb(229, 226, 226);
     padding-right: 10px;
-    /* height: 35px; */
-    border-radius: 5px;
-    width: 100%; /* Adjust to fill remaining space */
+   border-radius: 5px;
+    width: 80%; 
     margin-left: 2%;
     margin-right: 5%;
     font-family: 'Lucida Sans', 
     'Lucida Sans Regular', 'Lucida Grande', 
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium; 
-    /* margin-top: 2%; */
     align-content: right;
 
 }
@@ -139,7 +133,7 @@ nav{
 .image_resize{
         width: 250px;
         height: 250px;
-        margin: auto;
+        margin: 0 auto;
         border-radius: 3%;
         align-items: center;
         padding-right: 15px;}
@@ -167,29 +161,14 @@ nav{
         margin-bottom: 12%;
         margin-top: 2%;}
 
-    .nav_background img{
+    .nav_background img, .nav_background1 img{
         justify-content: right;
         width: 100px;
         height: 100px;
         border-radius: 60px;
 }
-.products_background img{
-    justify-content: right;
-        width: 100px;
-        height: 100px;
-        border-radius: 60px;
-        padding-left: 5px;
-}
 
-.contact_background img{
-    justify-content: right;
-        width: 100px;
-        height: 100px;
-        border-radius: 60px;
-        padding-left: 5px;
-}
-
-.login_background img{
+.products_background img, .contact_background img, .login_background img{
     justify-content: right;
         width: 100px;
         height: 100px;
@@ -208,14 +187,10 @@ signup_background img{
     color: darkred;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
-    /* text-indent: 100px; */
-    /* margin-right: 50px; */
-    /* padding-left: 0%; */
     width: 50%;
 }
 
 .contactus p{
-    /* margin 0% 2% 0%; */
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 45px;
@@ -223,12 +198,7 @@ signup_background img{
 }
 
 p{
-    /* font-family: Verdana, Geneva, Tahoma, 
-    sans-serif; */
     text-align: left;
-    /* margin: 0% 1% 1%;
-    margin-top: 1%; */
-    /* background-color: rgb(238, 111, 160); */
     padding: 2%;
     text-align: justify;
     border-radius: 5%;
@@ -291,18 +261,19 @@ background-color:lightcoral;
     margin-left: 10px;
 } 
 input[type="Name"], 
-textarea { width: calc(100% - 20px); 
-padding: 5px; margin: 0 1px; 
+textarea { width: calc(100% - 10px); 
+padding: 2px; margin: 0 auto; 
 border: 1px solid #ccc; 
-border-radius: 4px; 
-box-sizing: border-box;} 
+border-radius: 5%;
+box-sizing: border-box;
+} 
 
 .main {background-color: lightcoral;
     color: darkred; padding: 5px 10px; 
-    border: none; border-radius: 4px; 
+    border: none; border-radius: 5%; 
     cursor: pointer; 
-    display: block; width: calc(100% - 20px); 
-    margin: auto;
+    display: block; width: calc(96% - 10px); 
+    margin: 0 auto;
 } 
 .main:hover { background-color: gray; 
 } 
@@ -315,11 +286,6 @@ color: palevioletred; font-weight: bold;
 } 
 .nav a:hover { color: palevioletred 
 } 
-/* .social-links { 
-    display: flex; 
-    flex-wrap: wrap;
-gap: 10px; 
-} */
 .con_nav{
     padding-top: 0;
     margin: 5%;
@@ -334,21 +300,21 @@ h2{
 }
 .aboutus p{
 background: none;
-height: 5px;
-margin-top: 0%;
+/* height: 5px; */
+margin: 0 auto;
 padding-left: 0%;
+
 }
-/* .products_background{
-    background-image: none;
-} */
+ .about_us{
+   display: contents;
+    /* align-items: end; */
+ }
 .downlogo{
     padding-top: 80px;
     /* align-content: last baseline; */
     margin-right: 1%;
     padding-left: 100px;
-    /* float: left; */
-    /* display: flex;
-    justify-content: flex-end; */
+    
 }
 .links{
     display: flex;
@@ -363,30 +329,17 @@ body{
     background-color: lavenderblush;
     margin: 0 auto;
     padding: 0;
-    width: 95%;
+    width: 100%;
     /* display: flex; */
     align-items: center;
     justify-content: center;
-    /* height: 50vh; */
     margin-top: 10px;
 }
 h1{
     text-align: center;
    color: darkred;
-   /* margin-bottom: 2%; */
-   margin-top:0;
+   margin: 0 auto;
 }
-/* footer{
-    color: darkred;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    bottom: 0;
-} */
-/* .footer{
-    color: wheat;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: absolute;
-    bottom: 0;
-} */
 .products_images img{
     width: 120px;
     height: 100px;
@@ -399,8 +352,7 @@ h1{
     height: auto;
     padding-left: 10px;
     margin-top: 5px;
-    /* width: 100px; height: auto; */
-}
+ }
 
 .product_images, .products_images, .prod_images { 
     /* position: relative;  */
@@ -432,7 +384,6 @@ h1{
 .container{
     height: 100vh;
     width: 150vh;
-    /* box-shadow: 3px 3px 16px; */
     position: relative;
     overflow: hidden;
     object-fit:none;
@@ -442,11 +393,7 @@ h1{
 }
 
 .images{
-    /* display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center; */
-    position: relative; 
+   position: relative; 
     height: 65vh;
 }
 .images img{
@@ -454,10 +401,8 @@ h1{
     width: 100%;
     position: absolute;
     object-fit: cover;
-    transition: opacity 2.5s
-    
+    transition: opacity 2.5s   
 }
-
 
 .container2{
     display: flex;
@@ -499,8 +444,6 @@ h1{
    cursor: pointer;
 }
 .prod_images img{
-    /* width: 140px;
-    height: 120px; */
     padding-left: 10px;
     margin-top: 5px;
     width: 200px; height: auto;
@@ -544,8 +487,6 @@ h1{
     padding: 10px;
     
 }
-
-
 .input_login{
     /* width: 270px; */
     width: 100%;
@@ -570,11 +511,10 @@ h1{
 }
 
 .signup_background, .contact_background {
-    /* same styling as login_background if desired */
+    /* same styling as login_background */
     display: flex;
     flex-wrap: wrap;
     display: flex;
-    /* background-image: url(../images/contact\ 3.jpg); */
     background-position: 55%;
     background-size: contain;
     height: 450px;
@@ -639,10 +579,6 @@ h1{
     transition: color 0.3s ease;
 }
 
-/* .footer-left a:hover {
-    color: #3498db;
-} */
-
 .footer-right {
     text-align: right;
 }
@@ -669,5 +605,18 @@ h1{
     transition: background-image 2.5s ease-in-out;
     margin-bottom: 0;
 }
- 
+/* media queries for different screen sizes
+@media (max-width: 600px) {
+    .nav_background {
+        height: 
+        auto;}
+    .images {
+        height: auto;
+    }
+    .footer-right {
+        margin-top: 20px;
+    }
+} */
+ @media all and (max-width: 5000px){
 
+ }

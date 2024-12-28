@@ -31,7 +31,7 @@ function validateInput(input) {
 }
 var firstIndex=0;
 function automaticSlide(){
-    setTimeout(automaticSlide, 5000);
+    setTimeout(automaticSlide, 3000);
     var pics;
     const img=document.querySelectorAll('.container .images img');
     for(pics=0; pics<img.length;pics++){
