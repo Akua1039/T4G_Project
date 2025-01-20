@@ -621,7 +621,7 @@ h1{
     animation: slide 20s infinite
 }
 
-media queries for different screen sizes
+/* media queries for different screen sizes
 @media (max-width: 600px) {
     .nav_background {
         height: 
@@ -632,7 +632,7 @@ media queries for different screen sizes
     .footer-right {
         margin-top: 20px;
     }
-}
+} */
  @media all and (max-width: 5000px){
 
  }
@@ -640,8 +640,8 @@ media queries for different screen sizes
     0% { background-image: url('../images/Background images/Background mielle.webp'); } 
     10% { background-image: url('../images/Background images/leavein for kids.jpg'); } 
     20% { background-image: url('../images/Background images/Project1.jpg'); } 
-    30% { background-image: url('../images/Background images/Project1.jpg'); } 
-    40% { background-image: url('../images/background images/mane\ choice\ 2.jpg'); } 
+    30% { background-image: url('../images/background images/mane\ choice\ 2.jpg'); }
+    40% { background-image: url('../images/Background images/Project1.jpg'); } 
     50% { background-image: url('../images/Background images/mane\ choice.jpg'); } 
     60% { background-image: url('../images/Background images/Background mielle.webp'); } 
     70% { background-image: url('../images/Background images/leavein for kids.jpg'); } 
