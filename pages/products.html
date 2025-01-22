@@ -183,12 +183,12 @@
             <div class="form_contact">
                 <input type="text" id="firstName" name="firstName" placeholder="First Name" 
                 required oninput="validateInput(this)">
-                <small id="firstNameError" style="color: red; display: none;">First name is required.</small>
+                <small id="firstNameError" style="color: grey; display: none;">First name is required.</small>
             </div>
             <div class="form_contact">
                 <input type="text" name="lastName" id="lastName" placeholder="Last Name" 
                 required oninput="validateInput(this)">
-                <small id="lastNameError" style="color: red; display: none;">Last name is required.</small>
+                <small id="lastNameError" style="color: grey; display: none;">Last name is required.</small>
             </div>
             <div class="form_contact">
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Please Type Here" required></textarea> 
@@ -243,6 +243,49 @@
         <div class="footer-right">©2024 Peniel Glorious Business Services</div> 
     </div> 
 </footer>
-<script src="src/index.js"></script>
+<script>
+    // Function to validate input fields
+    function validateInput(input) {
+            if (input.value.trim() === "") {
+                input.nextElementSibling.style.display = "inline";
+            } else {
+                input.nextElementSibling.style.display = "none";
+            }
+        }
+
+        // Adding event listener to all input elements within the contact_form class
+        document.querySelectorAll('.contact_form .input_contact').forEach((input) => {
+            input.addEventListener('input', () => validateInput(input));
+        });
+
+        // Adding event listener to send message button
+        document.getElementById('submitBtn').onclick = function(event) {
+            var firstName = document.getElementById('firstName');
+            var lastName = document.getElementById('lastName');
+            var message = document.getElementById('message');
+            
+            var valid = true;
+            
+            if (firstName.value.trim() === "") {
+                firstName.nextElementSibling.style.display = 'inline';
+                valid = false;
+            }
+            if (lastName.value.trim() === "") {
+                lastName.nextElementSibling.style.display = 'inline';
+                valid = false;
+            }
+            if (message.value.trim() === "") {
+                alert('Message is required.');
+                valid = false;
+            }
+            
+            if (valid) {
+                alert(`Thank you, ${firstName.value}! Your message has been sent.`);
+                document.getElementById('contactForm').reset();
+            }
+            
+            event.preventDefault();
+        };
+</script>
 </body>
 </html>
