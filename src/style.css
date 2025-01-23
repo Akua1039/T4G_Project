@@ -622,8 +622,8 @@ cursor: pointer;
     height: 75vh;
     background-size: cover;
     background-position: center;
-    transition: background-image 0.5s ease-in-out;
-    animation: slide 10s infinite
+    /* transition: background-image 0.5s ease-in-out; */
+    animation: slide 20s infinite;
 }
 
 /* media queries for diferent screen sizes
