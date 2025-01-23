@@ -126,3 +126,27 @@ document.getElementById('sendMessageBtn').onclick = function(event) {
     
 //     event.preventDefault();
 // };
+
+window.onload = function() {
+    const slides = [
+      "../images/Background images/Project1.jpg",
+      "../images/Background images/leavein for kids.jpg",
+      "../images/Background images/mane choice.jpg",
+      "../images/Background images/Project1.jpg",
+      "../images/Background images/mane choice.jpg",
+      "../images/background images/mane choice 2.jpg"
+    ];
+    
+    let slideIndex = 0;
+    const slideshowElement = document.querySelector('.slideshow');
+    const transitionTime = 4000; // Time per slide in milliseconds (4000ms = 4s)
+  
+    const showSlides = () => {
+      slideshowElement.style.backgroundImage = `url(${slides[slideIndex]})`;
+      slideIndex = (slideIndex + 1) % slides.length;
+      setTimeout(showSlides, transitionTime);
+    };
+  
+    showSlides();
+  };
+  
