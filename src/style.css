@@ -561,6 +561,11 @@ h1{
 }
 .sign-up{
     text-indent: 10px;
+    cursor: pointer;
+}
+
+.sign-in{
+cursor: pointer;
 }
 .form_footer1{
     color: wheat;
@@ -648,4 +653,11 @@ h1{
     160% { background-image: url('../images/Background images/Project1.jpg'); } 
     180% { background-image: url('../images/Background images/Project1.jpg'); } 
    200% { background-image: url('../images/background images/mane\ choice\ 2.jpg'); }  */
+}
+.add-to-cart {
+color: crimson;
+}
+
+.fa-solid fa-cart-shopping {
+color: crimson;
 }

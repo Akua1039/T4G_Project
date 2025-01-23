@@ -126,4 +126,3 @@ document.getElementById('sendMessageBtn').onclick = function(event) {
     
 //     event.preventDefault();
 // };
-
