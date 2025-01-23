@@ -626,18 +626,72 @@ cursor: pointer;
     animation: slide 20s infinite;
 }
 
-/* media queries for diferent screen sizes
-@media (max-width: 600px) {
+/* Extra small devices (phones, 0px and up) */
+@media (max-width: 576px) {
     .nav_background {
-        height: 
-        auto;}
+        height: auto;
+    }
     .images {
         height: auto;
     }
     .footer-right {
         margin-top: 20px;
     }
-} */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .nav_background {
+        height: auto; /* Add specific styles */
+    }
+    .images {
+        height: auto; /* Add specific styles */
+    }
+    .footer-right {
+        margin-top: 20px; /* Adjust as needed */
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .nav_background {
+        height: auto; /* Add specific styles */
+    }
+    .images {
+        height: auto; /* Add specific styles */
+    }
+    .footer-right {
+        margin-top: 20px; /* Adjust as needed */
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .nav_background {
+        height: auto; /* Add specific styles */
+    }
+    .images {
+        height: auto; /* Add specific styles */
+    }
+    .footer-right {
+        margin-top: 20px; /* Adjust as needed */
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .nav_background {
+        height: auto; /* Add specific styles */
+    }
+    .images {
+        height: auto; /* Add specific styles */
+    }
+    .footer-right {
+        margin-top: 20px; /* Adjust as needed */
+    }
+}
+
+
  @media all and (max-width: 5000px){
 
  }
@@ -647,12 +701,7 @@ cursor: pointer;
     40%, 60% { background-image: url('../images/Background images/mane\ choice.jpg'); } 
     60%, 80% { background-image: url('../images/Background images/Project1.jpg'); } 
     80%, 100% { background-image: url('../images/Background images/mane\ choice.jpg'); }
-    /* 100% { background-image: url('../images/background images/mane\ choice\ 2.jpg'); } */
-    /* 120% { background-image: url('../images/Background images/Background mielle.webp'); } 
-    140% { background-image: url('../images/Background images/leavein for kids.jpg'); } 
-    160% { background-image: url('../images/Background images/Project1.jpg'); } 
-    180% { background-image: url('../images/Background images/Project1.jpg'); } 
-   200% { background-image: url('../images/background images/mane\ choice\ 2.jpg'); }  */
+    
 }
 .add-to-cart {
 color: crimson;
