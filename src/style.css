@@ -647,7 +647,7 @@ cursor: pointer;
     40% { background-image: url('../images/Background images/mane\ choice.jpg'); } 
     60% { background-image: url('../images/Background images/Project1.jpg'); } 
     80% { background-image: url('../images/Background images/mane\ choice.jpg'); }
-    100% { background-image: url('../images/background images/mane\ choice\ 2.jpg'); }
+    0% { background-image: url('../images/background images/mane\ choice\ 2.jpg'); }
     /* 120% { background-image: url('../images/Background images/Background mielle.webp'); } 
     140% { background-image: url('../images/Background images/leavein for kids.jpg'); } 
     160% { background-image: url('../images/Background images/Project1.jpg'); } 
