@@ -622,7 +622,7 @@ cursor: pointer;
     height: 75vh;
     background-size: cover;
     background-position: center;
-    transition: background-image 1.5s ease-in-out;
+    transition: background-image 0.5s ease-in-out;
     animation: slide 10s infinite
 }
 
@@ -642,17 +642,14 @@ cursor: pointer;
 
  }
  @keyframes slide { 
-    0% { background-image: url('../images/Background images/Background mielle.webp'); } 
+    /* 0% { background-image: url('../images/Background images/Background mielle.webp'); }  */
     /* 20% { background-image: url('../images/Background images/leavein for kids.jpg'); } */
-    40% { background-image: url('../images/Background images/mane\ choice.jpg'); } 
-    60% { background-image: url('../images/Background images/Project1.jpg'); } 
-    80% { background-image: url('../images/Background images/mane\ choice.jpg'); }
-    100% { background-image: url('../images/background images/mane\ choice\ 2.jpg'); }
-    /* 120% { background-image: url('../images/Background images/Background mielle.webp'); } 
-    140% { background-image: url('../images/Background images/leavein for kids.jpg'); } 
-    160% { background-image: url('../images/Background images/Project1.jpg'); } 
-    180% { background-image: url('../images/Background images/Project1.jpg'); } 
-   200% { background-image: url('../images/background images/mane\ choice\ 2.jpg'); }  */
+    0% { background-image: url('../images/Background images/mane\ choice.jpg'); } 
+    25% { background-image: url('../images/Background images/Project1.jpg'); } 
+    50% { background-image: url('../images/Background images/mane\ choice.jpg'); }
+    75% { background-image: url('../images/background images/mane\ choice\ 2.jpg'); }
+    100% { background-image: url('../images/Background images/leavein for kids.jpg'); } 
+    
 }
 .add-to-cart {
 color: crimson;
