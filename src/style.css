@@ -644,7 +644,7 @@ cursor: pointer;
  @keyframes slide { 
     /* 0% { background-image: url('../images/Background images/Background mielle.webp'); }  */
     /* 20% { background-image: url('../images/Background images/leavein for kids.jpg'); } */
-    0% { background-image: url('../images/Background images/mane\ choice.jpg'); } 
+    5% { background-image: url('../images/Background images/mane\ choice.jpg'); } 
     25% { background-image: url('../images/Background images/Project1.jpg'); } 
     50% { background-image: url('../images/Background images/mane\ choice.jpg'); }
     75% { background-image: url('../images/background images/mane\ choice\ 2.jpg'); }
