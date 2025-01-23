@@ -139,7 +139,7 @@ window.onload = function() {
     
     let slideIndex = 0;
     const slideshowElement = document.querySelector('.slideshow');
-    const transitionTime = 4000; // Time per slide in milliseconds (4000ms = 4s)
+    const transitionTime = 3000; // Time per slide in milliseconds (3000ms = 3s)
   
     const showSlides = () => {
       slideshowElement.style.backgroundImage = `url(${slides[slideIndex]})`;
